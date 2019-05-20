@@ -7,10 +7,13 @@ context.fillStyle = "#FFF";
 context.fillRect(0, 0, canvas.width, canvas.height);
 
 
+// NESESERY VAR'S
+
+let radius = Math.floor(Math.random() * 100); // get random nummber between 0 and 100 and put it in a var
 
 
 // DRAW CIRCLE
 
-context.beginPath(); // begin making shape
-context.arc(100, 100, 50, 0, 2 * Math.PI); // make a circle
-context.stroke(); // end making shape
+context.beginPath();
+context.arc(100, 100, radius, 0, 2 * Math.PI); // give radius the random nummber
+context.stroke();
