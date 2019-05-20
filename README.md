@@ -1,1 +1,1 @@
-# Give circle a minimum and maximum size
+# place circle somewhere random on screen
