@@ -1,1 +1,1 @@
-# Random circle size
+# Give circle a minimum and maximum size

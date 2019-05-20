@@ -9,11 +9,15 @@ context.fillRect(0, 0, canvas.width, canvas.height);
 
 // NESESERY VAR'S
 
-let radius = Math.floor(Math.random() * 100); // get random nummber between 0 and 100 and put it in a var
+let minR = 10; // make minnimum radius size
+
+let maxR = 100; // make maximum radius size
+
+let radius = Math.floor(Math.random() * (maxR - minR)) + minR; // add a minimum and maximum
 
 
 // DRAW CIRCLE
 
 context.beginPath();
-context.arc(100, 100, radius, 0, 2 * Math.PI); // give radius the random nummber
+context.arc(100, 100, radius, 0, 2 * Math.PI);
 context.stroke();
