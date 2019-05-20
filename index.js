@@ -14,13 +14,13 @@ let maxR = 100;
 
 let radius = Math.floor(Math.random() * (maxR - minR)) + minR;
 
-let x = Math.floor(Math.random() * canvas.width); // get random nummber between begginging and end of width en put it in a var
+let x = Math.floor(Math.random() * (canvas.width - radius * 2)) + radius; // gave a minimum and maximum distens from sides
 
-let y = Math.floor(Math.random() * canvas.height); // get random nummber between begginging and end of height en put it in a var
+let y = Math.floor(Math.random() * (canvas.height - radius * 2)) + radius; // gave a minimum and maximum distens from sides
 
 
 // DRAW CIRCLE
 
 context.beginPath();
-context.arc(x, y, radius, 0, 2 * Math.PI); // putt bolth var's here to declare position
+context.arc(x, y, radius, 0, 2 * Math.PI);
 context.stroke();

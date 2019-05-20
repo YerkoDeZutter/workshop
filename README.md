@@ -1,1 +1,1 @@
-# place circle somewhere random on screen
+# get full circle on screen at all time's
