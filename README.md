@@ -1,3 +1,1 @@
-# Basic Setup
-
-k
+# full screen
