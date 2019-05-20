@@ -12,5 +12,5 @@ context.fillRect(0, 0, canvas.width, canvas.height);
 // DRAW CIRCLE
 
 context.beginPath(); // begin making shape
-context.arc(100, 100, 50, 0, 2 * Math.PI); // make a circle
+context.arc(100/*place where in x*/, 100/*place where in y*/, 50/*circle size (radius)*/, 0/*arc begin*/, 2 * Math.PI/*arc end*/); // make a circle
 context.stroke(); // end making shape
