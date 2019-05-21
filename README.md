@@ -3,8 +3,8 @@
 To begin whit out Project we first need to set up all the basics.
 
 * MyMap <br>
-    * index.html ( standerd html file )
-    * index.js ( standerd javascript file )
+    * index.html ( standard html file )
+    * index.js ( standard javascript file )
 
--link js file to html <br>
--creat canvas element in de html file
+-link JS file to html <br>
+-create canvas element in de html file
