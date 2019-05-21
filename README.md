@@ -1,11 +1,11 @@
 # Draw a circle
 
-Now that we have a screen we can finaly draw something on the screen. So lets start whit something simpel. a circle.
+Now that we have a screen we can finally draw something on the screen. So lets start whit something simple. a circle.
 
 To draw a circle you need to declare you are starting to draw a line whit `context.beginPath();`.
 Not to draw a circle there is a other canvas function to help you `context.arc()`. Whit this function you can draw a line whit a arc.
 
-After you are done drawing you may knowdis that you cant see anything. that is because even tho it is drawin, it has no fill color or stroke (out line). to give it a line just write `context.stroke()` beneath the drawing to give the drawing a stroke (line).
+After you are done drawing you may notice that you cant see anything. that is because even though it is drawing, it has no fill color or stroke (out line). to give it a line just write `context.stroke()` beneath the drawing to give the drawing a stroke (line).
 
 ## arc function
 
