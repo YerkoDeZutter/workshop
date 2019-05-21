@@ -2,7 +2,7 @@
 
 Lets say that you don't want a small screen to display animation or image. But you want it to display on the whole screen so you can use it as a background.
 
-Then you dont have to do much to make that happen. where you declared the size of the canvas you just need to get the window object and get it's size (window.innerWidth and window.innerHeight). and you're done.
+Then you don't have to do much to make that happen. where you declared the size of the canvas you just need to get the window object and get it's size (window.innerWidth and window.innerHeight). and you're done.
 
 ## keep same size as the window
 
