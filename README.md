@@ -1,5 +1,11 @@
 # Random circle size
 
-Math.random() = 0 to 1 (0.3920472048).<br/>
-Math.floor() = remove desimal and everything after (0.3920472048 = 0).<br/>
-Math.random() * 100 = 39.20472048,  Math.floor(39.20472048) = 39.
+Now that we're able to draw something whit the canvas lets add some normal javascript that is not restricted whit canvas to inproove the canvas we made. By adding some randomness.
+
+Now lets creat a random numbber and put in a var so you can use it at a later date if you need to (by uzing `Math.random()`).
+
+`Math.random()` = 0 to 1 (0.3920472048).<br/>
+`Math.floor()` = remove desimal and everything after (0.3920472048 = 0).<br/>
+`Math.random() * 100` = 39.20472048, ` Math.floor(39.20472048)` = 39.
+
+When you you are dont whit that you can put the var in the `context.arc()` function where you declare the radius (size).
