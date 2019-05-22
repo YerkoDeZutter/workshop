@@ -14,16 +14,28 @@ let x = Math.floor(Math.random() * (canvas.width - radius * 2)) + radius;
 
 let y = Math.floor(Math.random() * (canvas.height - radius * 2)) + radius;
 
+speed = 2; // how meny pixels does the circle move every drawing.
+
+let xM = speed; // set speed and direction for X
+let yM = -speed; // set speed and direction for Y
 
 // ANIMATION
 
 function update() {
 
-  x++;
-  y--;
+  if(x >= canvas.width - radius || x <= 0 + radius){ // check if the circle hits the edge of the canvas in X acas
+    xM = xM - xM * 2; // change direction in X
+  }
+
+  if(y >= canvas.height - radius || y <= 0 + radius){ // check if the circle hits the edge of the canvas in Y acas
+    yM = yM - yM * 2; // change direction in Y
+  }
+
+  x += xM; // set direction and speed to actual circle
+  y += yM; // set direction and speed to actual circle
 
   context.fillStyle = "#FFF";
-  context.fillRect(0, 0, canvas.width, canvas.height); // added background creation in the animation function. before drawing the circle.
+  context.fillRect(0, 0, canvas.width, canvas.height);
 
   // DRAW CIRCLE
 
