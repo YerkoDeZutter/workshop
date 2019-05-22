@@ -1,6 +1,6 @@
 # Canvas
 
-## how to navegate the steps
+## how to navigate the steps
 
 When you look at the branches you see that there are much more then 1 (master). Each branch is a new step in this current project. <br/> When you understand what the current step is and how it works you can go to the next one.
 
