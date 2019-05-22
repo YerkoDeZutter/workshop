@@ -1,5 +1,7 @@
-# get full circle on screen at all time's
+# Animation
 
-Now you may have noticed that sometimes part of your circle gets partly outside the window/canvas. That is because it pleases the middle point of the circle anywhere on the window (from 0 to the end of the canvas). Because of this parts of the circle gets out of the canvas.
+Now you know how to draw something and know that you can change it how you want. Now we can look into some animation.
 
-Now you an fic this by making a minimum and maximum again. Where the minimum the radius size is. And the maximum the canvas size - radius size is.
+to use animation in your canvas project you need a function whit a name that you choose yourself. In this function you put everything you want to change/animate. and at the end of the function you have to put the `requestAnimationFrame()` function whit your own made function's name in the parameters. like this  `requestAnimationFrame(update)`.
+
+And in the beginning of the function you put what you want to change in the animation. In my case now I just want to move my circle slowly to the right. So I just added `x++`. That way every time it draw's the circle again it move's 1 pixel to the right. And I also added `y--`. This makes the circle move slowly up.
