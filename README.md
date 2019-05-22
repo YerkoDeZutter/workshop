@@ -4,6 +4,9 @@
 
 When you look at the branches you see that there are much more then 1 (master). Each branch is a new step in this current project. <br/> When you understand what the current step is and how it works you can go to the next one.
 
+WARNING!!!
+the animation_steps are for after you are done whit step 8.
+
 Pleas clone the repository to make it more help full.
 
 
